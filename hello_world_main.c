@@ -4,8 +4,9 @@
 #include "freertos/task.h" //
 #include <stdio.h> 
 #include <unistd.h>
-#include "esp_timer.h"//
 #include <stdlib.h>
+#include "esp_timer.h"//
+
 #include "model.h"
 
 float** conv1d(float** input, float*** weight, float* bias, int C_in, int L, int K, int C_out, int stride)
@@ -52,6 +53,35 @@ float* linear(float* input, float** weight, float* bias, int C_in, int C_out)
         for (int j = 0; j < C_in; j++)
         {
             output[i] += input[j] * weight[i][j];
+        }
+    }
+
+    return output;
+}
+
+float* ReLU(float* input, int C)
+{
+    float* output = (float*)malloc(C * sizeof(float));
+    for (int i = 0; i < C; i++)
+    {
+        output[i] = input[i] > 0 ? input[i] : 0;
+    }
+
+    return output;
+}
+
+float** ReLU2D(float** input, int C, int L)
+{
+    float** output = (float**)malloc(C * sizeof(float*));
+    for (int i = 0; i < C; i++)
+    {
+        output[i] = (float*)malloc(L * sizeof(float));
+    }
+    for (int i = 0; i < C; i++)
+    {
+        for (int j = 0; j < L; j++)
+        {
+            output[i][j] = input[i][j] > 0 ? input[i][j] : 0; //elementwise ReLU
         }
     }
 
@@ -175,5 +205,6 @@ void task_main(void *pvParameters)
 }
 
 void app_main() {
+    // Create a task that will run "task_main"
     xTaskCreate(task_main, "main_task", 10240, NULL, 1, NULL);
 }
