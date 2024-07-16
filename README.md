@@ -17,7 +17,7 @@ Microprocessor: ESP32-S3 N16R8
 
 ## Example
 
-This example donates a simple neural network, including a ```conv1d``` layer and a ```linear``` layer.
+This example donates a simple neural network, including a ```conv1d``` layer and a ```linear``` layer. The size of input, output, weights and bias and the model itself are in ```model.h```. 
 
 ## Get Start
 
