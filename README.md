@@ -15,6 +15,10 @@ Microprocessor: ESP32-S3 N16R8
 3. linear layer
 4. ReLU layer
 
+## Example
+
+This example donates a simple neural network, including a ```conv1d``` layer and a ```linear``` layer.
+
 ## Get Start
 
 **Make sure you have downloaded the ESP-IDF and Git before getting start!**
