@@ -21,7 +21,9 @@ This example donates a simple neural network, including a ```conv1d``` layer and
 
 The size of input, output, weights and bias and the model itself are in ```model.h```. 
 
-The main file defines the neural network and uses a dummy input data to test the network.
+The ```hello_world_main.c``` file defines the neural network and uses a dummy input data to test the network.
+
+You can modify the these two files to define and run your own network.
 
 ## Get Start
 
