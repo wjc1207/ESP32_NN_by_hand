@@ -23,7 +23,7 @@ The size of input, output, weights and bias and the model itself are in ```model
 
 The ```hello_world_main.c``` file defines the neural network and uses a dummy input data to test the network.
 
-You can modify the these two files to define and run your own network.
+You can modify these two files to define and run your own network.
 
 ## Get Start
 
