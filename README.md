@@ -17,6 +17,8 @@ Microprocessor: ESP32-S3 N16R8
 
 ### Get Start
 
+**Make sure you have downloaded the ESP-IDF and Git before getting start!**
+
 1. download the code
 ```
 git clone https://github.com/wjc1207/ESP32_NN_by_hand.git
