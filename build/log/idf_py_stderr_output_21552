@@ -1,0 +1,103 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM8 instead...[0m
+[0;33m--- idf_monitor on \\.\COM8 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4037524c: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375796: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40379ac5: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f3e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037e3aa: tlsf_free at C:/Espressif/frameworks/esp-idf-v5.1.1/components/heap/tlsf/tlsf.c:1119 (discriminator 1)
+[0m
+[0;33m0x4037e254: multi_heap_free_impl at C:/Espressif/frameworks/esp-idf-v5.1.1/components/heap/multi_heap.c:231
+[0m
+[0;33m0x40376132: heap_caps_free at C:/Espressif/frameworks/esp-idf-v5.1.1/components/heap/heap_caps.c:388
+[0m
+[0;33m0x4037f419: free at C:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/heap.c:39
+[0m
+[0;33m0x420087d5: app_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_by_hand/main/hello_world_main.c:144 (discriminator 3)
+[0m
+[0;33m0x42017493: main_task at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037bf6d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375618: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x4037524c: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375796: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40379ac5: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f3e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037e3aa: tlsf_free at C:/Espressif/frameworks/esp-idf-v5.1.1/components/heap/tlsf/tlsf.c:1119 (discriminator 1)
+[0m
+[0;33m0x4037e254: multi_heap_free_impl at C:/Espressif/frameworks/esp-idf-v5.1.1/components/heap/multi_heap.c:231
+[0m
+[0;33m0x40376132: heap_caps_free at C:/Espressif/frameworks/esp-idf-v5.1.1/components/heap/heap_caps.c:388
+[0m
+[0;33m0x4037f419: free at C:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/heap.c:39
+[0m
+[0;33m0x420087d5: app_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_by_hand/main/hello_world_main.c:144 (discriminator 3)
+[0m
+[0;33m0x42017493: main_task at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037bf6d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375618: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x4037524c: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375796: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40379ac5: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f3e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037e3aa: tlsf_free at C:/Espressif/frameworks/esp-idf-v5.1.1/components/heap/tlsf/tlsf.c:1119 (discriminator 1)
+[0m
+[0;33m0x4037e254: multi_heap_free_impl at C:/Espressif/frameworks/esp-idf-v5.1.1/components/heap/multi_heap.c:231
+[0m
+[0;33m0x40376132: heap_caps_free at C:/Espressif/frameworks/esp-idf-v5.1.1/components/heap/heap_caps.c:388
+[0m
+[0;33m0x4037f419: free at C:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/heap.c:39
+[0m
+[0;33m0x420087d5: app_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_by_hand/main/hello_world_main.c:144 (discriminator 3)
+[0m
+[0;33m0x42017493: main_task at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037bf6d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375618: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x4037524c: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375796: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40379ac5: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f3e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037e3aa: tlsf_free at C:/Espressif/frameworks/esp-idf-v5.1.1/components/heap/tlsf/tlsf.c:1119 (discriminator 1)
+[0m
+[0;33m0x4037e254: multi_heap_free_impl at C:/Espressif/frameworks/esp-idf-v5.1.1/components/heap/multi_heap.c:231
+[0m
+[0;33m0x40376132: heap_caps_free at C:/Espressif/frameworks/esp-idf-v5.1.1/components/heap/heap_caps.c:388
+[0m
+[0;33m0x4037f419: free at C:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/heap.c:39
+[0m
+[0;33m0x420087d5: app_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_by_hand/main/hello_world_main.c:144 (discriminator 3)
+[0m
+[0;33m0x42017493: main_task at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037bf6d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375618: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x4037524c: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0m

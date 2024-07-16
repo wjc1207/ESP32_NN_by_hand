@@ -11,33 +11,34 @@
 
 float** conv1d(float** input, float*** weight, float* bias, int C_in, int L, int K, int C_out, int stride)
 {
+    int L_out = (L - K) / stride + 1;
     float** output = (float**)malloc(C_out * sizeof(float*));
     for (int i = 0; i < C_out; i++)
     {
-        output[i] = (float*)malloc(L * sizeof(float));
+        output[i] = (float*)malloc(L_out * sizeof(float));
     }
     for (int i = 0; i < C_out; i++)
     {
-        for (int j = 0; j < L; j++)
+        for (int j = 0; j < L_out; j++)
         {
             output[i][j] = 0;
         }
     }
     for (int i = 0; i < C_out; i++)
     {
-        for (int j = 0; j < L; j += stride)
+        for (int j = 0; j < L_out; j++)
         {
-            output[i][j/stride] += bias[i];
             for (int k = 0; k < C_in; k++)
             {
                 for (int l = 0; l < K; l++)
                 {
-                    if (j + l < L)
+                    if (j * stride + l < L)
                     {
-                        output[i][j/stride] += input[k][j + l] * weight[i][k][l];
+                        output[i][j] += input[k][j * stride + l] * weight[i][k][l];
                     }
                 }
             }
+            output[i][j] += bias[i];
         }
     }
 
