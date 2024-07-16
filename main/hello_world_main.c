@@ -156,34 +156,18 @@ float* convert_to_1d_dynamic(int C, float input[C])
     return output;
 }
 
-
-void task_main(void *pvParameters) 
+float* Net(float** input)
 {
     // get time
     int64_t start = esp_timer_get_time();
 
-
-    //create input data
-    float** input = (float**)malloc(CONV1D_1_C_IN * sizeof(float*));
-    for (int i = 0; i < CONV1D_1_C_IN; i++)
-    {
-        input[i] = (float*)malloc(CONV1D_1_L * sizeof(float));
-    }
-    for (int i = 0; i < CONV1D_1_C_IN; i++)
-    {
-        for (int j = 0; j < CONV1D_1_L; j++)
-        {
-            input[i][j] = 1;
-        }
-    }
     float*** weight1_copy = convert_to_3d_dynamic(CONV1D_1_C_OUT, CONV1D_1_C_IN, CONV1D_1_K, conv1d_1_weight);
     float* bias1_copy = convert_to_1d_dynamic(CONV1D_1_C_OUT, conv1d_1_bias);
-    //conv1d
+    // conv1d
     float** output = conv1d(input, weight1_copy, bias1_copy, CONV1D_1_C_IN, CONV1D_1_L, CONV1D_1_K, CONV1D_1_C_OUT, CONV1D_1_STRIDE);
     float* output1d = convert_2d_to_1d(output, CONV1D_1_C_OUT, CONV1D_1_L_OUT);
     
-
-
+    // linear
     float** weight2_copy = convert_to_2d_dynamic(LINEAR_1_C_OUT, LINEAR_1_C_IN, linear_1_weight);
     float* bias2_copy = convert_to_1d_dynamic(LINEAR_1_C_OUT, linear_1_bias);
     float* output2 = linear(output1d, weight2_copy, bias2_copy, LINEAR_1_C_IN, LINEAR_1_C_OUT);
@@ -199,9 +183,29 @@ void task_main(void *pvParameters)
     free(output1d);
     free(weight2_copy);
     free(bias2_copy);
-    free(output2);
 
     printf("Time: %lld\n", end - start);
+
+    return output2;
+}
+
+void task_main(void *pvParameters) 
+{
+    //create input data
+    float** input = (float**)malloc(CONV1D_1_C_IN * sizeof(float*));
+    for (int i = 0; i < CONV1D_1_C_IN; i++)
+    {
+        input[i] = (float*)malloc(CONV1D_1_L * sizeof(float));
+    }
+    //dummy input
+    for (int i = 0; i < CONV1D_1_C_IN; i++)
+    {
+        for (int j = 0; j < CONV1D_1_L; j++)
+        {
+            input[i][j] = 1;
+        }
+    }
+    float* output = Net(input);
     vTaskDelete(NULL);
 }
 
