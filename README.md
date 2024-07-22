@@ -54,3 +54,7 @@ If everything works well, you should see the following output:
 -0.025692
 Time: 8176
 ```
+
+## Tools
+
+The ```convert_json_to_h.py``` can be used to convert the model in ```json``` file into the ```.h``` file directly.
