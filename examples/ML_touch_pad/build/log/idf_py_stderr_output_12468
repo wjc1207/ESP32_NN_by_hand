@@ -1,0 +1,783 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM9 instead...[0m
+[0;33m--- idf_monitor on \\.\COM9 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375354: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037caf1: xPortInIsrContext at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:476
+[0m
+[0;33m0x40378479: esp_crosscore_int_send_yield at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/crosscore_int.c:157
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037cac9: pxPortInitialiseStack at ??:?
+[0m
+[0;33m0x42008fa1: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:244
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf38: xt_utils_get_core_id at C:/Espressif/frameworks/esp-idf-v5.1.1/components/xtensa/include/xt_utils.h:36
+ (inlined by) esp_cpu_get_core_id at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_hw_support/include/esp_cpu.h:127
+ (inlined by) xPortGetCoreID at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:631
+ (inlined by) vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x42008fa1: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:244
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037caed: vPortClearInterruptMaskFromISR at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:568
+ (inlined by) xPortInIsrContext at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:474
+[0m
+[0;33m0x40377630: xPortEnterCriticalTimeoutSafe at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:586
+ (inlined by) vPortEnterCriticalSafe at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+ (inlined by) touch_pad_read_raw_data at C:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/touch_sensor/esp32s3/touch_sensor.c:318
+[0m
+[0;33m0x42008fa1: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:244
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400559dd: _xtos_set_intlevel in ROM
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4200ba7e: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200bc2a: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376e8d: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4037bf3e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/tasks.c:1677
+[0m
+[0;33m0x42008fb5: task_main at C:/Users/16425/Desktop/4th_year_project/esp-csi-master/examples/get-started/ML_touch_pad/main/hello_world_main.c:248 (discriminator 2)
+[0m
+[0;33m0x4037c9e5: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0m

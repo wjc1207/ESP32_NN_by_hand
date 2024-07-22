@@ -1,0 +1,128 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x28 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x16e8
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2eb0
+entry 0x403c9908
+[0;32mI (27) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul  4 2024 11:59:27[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (49) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (58) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (92) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0a728h ( 42792) map[0m
+[0;32mI (108) esp_image: segment 1: paddr=0001a750 vaddr=3fc91f00 size=058c8h ( 22728) load[0m
+[0;32mI (113) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=19654h (104020) map[0m
+[0;32mI (135) esp_image: segment 3: paddr=0003967c vaddr=3fc977c8 size=00b74h (  2932) load[0m
+[0;32mI (136) esp_image: segment 4: paddr=0003a1f8 vaddr=40374000 size=0de7ch ( 56956) load[0m
+[0;32mI (160) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (161) boot: Disabling RNG early entropy source...[0m
+[0;32mI (172) cpu_start: Multicore app[0m
+[0;32mI (172) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (172) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (176) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (181) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (186) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (192) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (197) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (203) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (208) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (214) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (220) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (225) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (230) esp_psram: Speed: 40MHz[0m
+[0;32mI (234) cpu_start: Pro cpu up.[0m
+[0;32mI (237) cpu_start: Starting app cpu, entry point is 0x40375354[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (975) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (984) cpu_start: Pro cpu start user code[0m
+[0;32mI (984) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (984) cpu_start: Application information:[0m
+[0;32mI (987) cpu_start: Project name:     hello_world[0m
+[0;32mI (992) cpu_start: App version:      1[0m
+[0;32mI (997) cpu_start: Compile time:     Jul  4 2024 11:58:18[0m
+[0;32mI (1003) cpu_start: ELF file SHA256:  fbb1a3b5f4915b93...[0m
+[0;32mI (1009) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (1015) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (1019) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (1024) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (1029) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1036) heap_init: At 3FC98BD0 len 00050B40 (322 KiB): DRAM[0m
+[0;32mI (1043) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (1049) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1056) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (1062) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1071) spi_flash: detected chip: generic[0m
+[0;32mI (1074) spi_flash: flash io: dio[0m
+[0;33mW (1078) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (1092) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1099) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1106) app_start: Starting scheduler on CPU0[0m
+[0;32mI (1111) app_start: Starting scheduler on CPU1[0m
+[0;32mI (1111) main_task: Started on CPU0[0m
+[0;32mI (1121) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1131) main_task: Calling app_main()[0m
+[0;32mI (1131) touch read: Denoise function init[0m
+[0;32mI (1141) main_task: Returned from app_main()[0m
+.......................................................................................Time: 1787338
+Time: 17853 0.250036 0.305734 0.134447 0.168238 Result: B
+.......................................................................................Time: 1782103
+Time: 17789 0.270639 0.318833 0.277851 0.044098 Result: B
+.......................................................................................Time: 1789242
+Time: 17789 0.069839 0.417047 0.177749 0.309084 Result: B
+.......................................................................................Time: 1783031
+Time: 17789 0.295972 0.286762 0.332567 0.070733 Result: C
+.......................................................................................Time: 1785527
+Time: 17789 0.274733 0.302047 0.426941 -0.012808 Result: C
+.......................................................................................Time: 1781168
+Time: 17789 0.260749 0.049683 0.301828 -0.019057 Result: C
+.......................................................................................Time: 1780257
+Time: 17789 0.214464 -0.007242 0.340113 0.062481 Result: C
+.......................................................................................Time: 1785766
+Time: 17790 0.061514 0.071553 0.374570 0.180026 Result: C
+.......................................................................................Time: 1781340
+Time: 17789 0.096303 0.238982 0.496926 0.006763 Result: C
+.......................................................................................Time: 1784951
+Time: 17790 0.340503 -0.074642 0.154844 0.351397 Result: D
+.......................................................................................Time: 1789722
+Time: 17859 0.121206 0.117105 0.038004 0.191322 Result: D
+.......................................................................................Time: 1786893
+Time: 19361 0.283911 0.117032 0.273341 0.258088 Result: A
+.......................................................................................Time: 1782232
+Time: 20388 0.094330 0.339953 0.440902 0.118163 Result: C
+.......................................................................................Time: 1783332
+Time: 34142 0.310325 0.121448 0.301264 0.217117 Result: A
+.......................................................................................Time: 1784993
+Time: 30114 0.339832 0.056874 0.411326 0.196226 Result: C
+.......................................................................................Time: 1781687
+Time: 30020 0.425240 0.183742 0.333661 0.148467 Result: A
+.......................................................................................Time: 1781632
+Time: 30030 0.352667 0.171687 0.321733 0.154357 Result: A
+.......................................................................................Time: 1784736
+Time: 30031 0.116618 0.075730 0.211106 0.319198 Result: D
+.......................................................................................Time: 1790219
+Time: 30016 0.326010 0.266982 0.156702 0.182412 Result: A
+.......................................................................................Time: 1787476
+Time: 30019 0.145985 0.104899 0.216131 0.167118 Result: C
+.......................................................................................Time: 1788740
+Time: 30032 0.221546 0.173657 0.293795 0.173472 Result: C
+.......................................................................................Time: 1785438
+Time: 30030 0.088066 0.090816 0.208525 0.261205 Result: D
+.......................................................................................Time: 1790309
+Time: 30014 0.220977 -0.003971 0.247277 0.043201 Result: C
+.......................................................................................Time: 1785954
+Time: 30016 0.178160 0.185481 0.274352 0.081685 Result: C
+.......................................................................................Time: 1788498
+Time: 30033 0.131609 0.155920 0.284962 0.007092 Result: C

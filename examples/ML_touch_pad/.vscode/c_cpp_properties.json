@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT"
+        },
+        {
+            "name": "Win32-debug",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include/c++/12.1.0",
+                "C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include/c++/12.1.0/x86_64-w64-mingw32",
+                "C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include/c++/12.1.0/backward",
+                "C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/include",
+                "C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../include",
+                "C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/include-fixed"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "${workspaceFolder}/**"
+                ]
+            },
+            "defines": [
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerArgs": [
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

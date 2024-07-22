@@ -1,0 +1,12 @@
+{
+    "C_Cpp.default.browse.path": [
+        "${workspaceFolder}/**"
+    ],
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**"
+    ],
+    "files.associations": {
+        "demosdk.h": "c",
+        "ohos_init.h": "c"
+    }
+}
