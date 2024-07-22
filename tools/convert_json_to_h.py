@@ -1,10 +1,10 @@
 import json
 import numpy as np
 
-# 假设有一个名为data.json的JSON文件
+# Assume that there is a "model.json" file
 file_path = 'model.json'
 
-# 读取JSON文件
+# read json file
 with open(file_path, 'r', encoding='utf-8') as file:
     data = json.load(file)
 
@@ -23,6 +23,7 @@ with open("model.h", "w", encoding="utf-8") as file:
         item = str(item)
         item = item.replace('[', '{').replace(']', '}')
         file.write(item)
-        print(item)
 
         file.write(";\n")
+
+        print(key)
